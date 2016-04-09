@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+background-image: url(bg_line.jpg); 
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
 div#title{
 	margin: 30px 0 0;
     padding: 0;
